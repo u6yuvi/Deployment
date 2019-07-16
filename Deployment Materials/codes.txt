@@ -1,0 +1,9 @@
+##Installing requirements.txt
+pip install -r packages\regression_model\requirements.txt
+
+##Creating package
+** Requirements file
+python packages\regression_model\setup.py sdist bdist_wheel
+
+##Installing package
+pip install -e packages\regression_model
