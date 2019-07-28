@@ -18,7 +18,7 @@ def test_health_endpoint_returns_200(flask_test_client):
     # Then
     assert response.status_code == 200
 
-'''
+
 
 def test_version_endpoint_returns_version(flask_test_client):
     # When
@@ -52,6 +52,7 @@ def test_prediction_endpoint_returns_prediction(flask_test_client):
     assert math.ceil(prediction[0]) == 112476
     assert response_version == _version
 
+'''
 
 def test_classifier_endpoint_returns_prediction(flask_test_client):
     # Given
